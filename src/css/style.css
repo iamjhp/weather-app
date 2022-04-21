@@ -1,3 +1,89 @@
-h1 {
-  color: red;
+:root {
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url('https://source.unsplash.com/1920x1080/?landscape');
+  background-repeat: no-repeat;
+  margin: 0;
+}
+
+.card {
+  color: white;
+  background: #000000d0;
+  padding: 3rem;
+  border-radius: 2rem;
+  width: 100%;
+  max-width: 600px;
+  margin: 2rem;
+}
+
+.weather {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.search {
+  display: flex;
+  justify-content: center;
+  gap: 4px;
+}
+
+.weather-info {
+  display: flex;
+  align-items: center;
+}
+
+input.search-bar {
+  border: none;
+  background: #3f3f46;
+  color: white;
+  outline: none;
+  font-family: inherit;
+  font-size: 1.25rem;
+  padding: 0.5rem;
+  border-radius: 6px;
+}
+
+button {
+  width: 40px;
+  height: 40px;
+  background-color: #d4d4d4;
+  border: none;
+  border-radius: 6px;
+  padding: 0.5rem;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #737373;
+}
+
+.weather {
+  margin-bottom: 1rem;
+}
+
+.list-items {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.item {
+  background: #a3a3a3;
+  padding: 6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 1rem;
+  font-family: inherit;
+  
 }
